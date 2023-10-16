@@ -1,0 +1,120 @@
+/* Reset de estilos */
+body, h1, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1F97D4;
+    margin: 0; /* Remova a margem padrão do corpo para ajustar o sticky footer */
+    min-height: 100vh; /* Define a altura mínima do corpo para preencher a tela inteira */
+    position: relative; /* Adicione esta propriedade para que os elementos internos se posicionem em relação a este corpo */
+}
+
+header {
+    background-color: #3958F4;
+    color: #fff;
+    padding: 20px;
+}
+
+header a{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #3958F4;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+.info-section h1 {
+    font-size: 50px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: fantasy;
+    padding: 0%;
+}
+.info-section h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-family: fantasy;
+}
+
+.info-section p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.info-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.info-section a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+
+.info-section ol {
+
+    text-align: justify;
+    margin-bottom: 20px;
+    color: #fff;
+    text-decoration: none;
+
+
+}
+
+
+
+footer {
+    background-color: #3958F4;
+    color: #fff;
+    text-align: center;
+    position: fixed; /* Defina a posição como absoluta para que o footer fique colado no fundo */
+    width: 100%; /* Ocupa toda a largura do corpo */
+    height: auto;
+    bottom: 0; /* Fica na parte inferior do corpo */
+}
+
+#image {
+    float: right;
+    height: 300px;
+    width: 300px;
+    align-content: center;
+}
+#image2 {
+  
+    height: 150px;
+    width: 150px;
+    align-content: center;
+}
+
+#image3 {
+    padding: 5%;
+    height: 600px;
+    width: 450px;
+    justify-content: center;
+}
+
+#saiba{
+    padding-top: 5%;
+}
