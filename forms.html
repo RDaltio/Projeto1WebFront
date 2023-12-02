@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="forms.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <form>
+        <label for="Nome">Nome completo:</label><br>
+        <input type="text" id="Nome" name="Nome" required><br>
+        <label for="Idade">Idade:</label><br>
+        <input type="number" id="Idade" name="Idade" min="18" max="120" required><br>
+        <label for="Cidade">Cidade:</label><br>
+        <input type="text" id="Cidade" name="Cidade" min="3" max="120" required><br>
+        <label for="Email">E-mail:</label><br>
+        <input type="email" id="Email" name="Email" placeholder="Insira um e-mail válido" required><br>
+        <label for="Opiniao">Nos diga como você contribui/pode contribuir para a solução da ODS 14!</label><br>
+        <textarea name="Opiniao" id="Opiniao" cols="30" rows="5"></textarea><br>
+        <input type="submit" id="Enviar" name="Enviar"><br>
+    </form>
+    <div id="listaContainer"></div>
+    <div id="botaoContainer">
+        <button id="LimparCampos">Limpar Campos</button>
+        <button id="ExcluirTodos">Excluir Todos</button>
+    </div><br>
+    <label for="CampoPesquisa">Pesquisar:</label>
+    <input type="text" id="CampoPesquisa" name="CampoPesquisa">
+    <button id="Pesquisar">Pesquisar</button>
+</body>
+</html>
